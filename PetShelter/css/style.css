@@ -1,0 +1,769 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 60px 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+main {
+    width: 100%;
+    position: relative;
+}
+
+.section-one {
+    padding: 180px 0 0;
+    width: 100%;
+    background: linear-gradient(90.26deg, #7D604B 0.23%, #251000 99.8%);
+}
+
+.cozy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.logo a {
+    color: #F1CDB3;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+}
+
+.logo p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #FFFFFF;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.navigation img {
+    width: 50px;
+    display: none;
+}
+
+.navigation a {
+    margin-left: 35px;
+    text-decoration: none;
+    color: #CDCDCD;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding-bottom: 3px;
+}
+
+header .activ-link {
+    border-bottom: 3px solid #F1CDB3;
+}
+
+.navigation a:hover {
+    color: #FAFAFA;
+}
+
+.navigation ul {
+    display: flex;
+}
+
+.navigation li {
+    list-style: none;
+}
+
+.containertwo {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title {
+    max-width: 460px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.title h1 {
+    max-width: 310px;
+    color: #FFFFFF;
+    font-size: 44px;
+    line-height: 130%;
+    font-weight: 400;
+}
+
+.title p {
+    max-width: 460px;
+    color: #CDCDCD;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    margin: 41px 0 41px;
+}
+
+.title a {
+    display: inline-block;
+    background-color: #F1CDB3;
+    color: #292929;
+    max-width: 207px;
+    padding: 15px 45px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 100px;
+    letter-spacing: 0.06em;
+}
+
+.title a:hover {
+    background-color: #FDDCC4;
+}
+
+.title img {
+    width: 698px;
+    height: 728px;
+}
+
+.containertwo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-two {
+    background-color: #FFFFFF;
+    width: 100%;
+}
+
+.about-pets {
+    display: flex;
+    padding: 80px 0 100px;
+    justify-content: center;
+}
+
+.cat-dog {
+    margin-right: 126px;
+}
+
+.cozy-house h3 {
+    font-family: 'Georgia';
+    max-width: 370px;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #545454;
+    font-weight: 400;
+}
+
+.cozy-house p {
+    font-family: 'Arial';
+    max-width: 430px;
+    font-size: 15px;
+    line-height: 160%;
+    color: #4C4C4C;
+}
+
+.curently {
+    margin: 25px 0;
+}
+
+.section-tree {
+    padding: 80px 0 100px;
+    width: 100%;
+    background-color: #F6F6F6;
+}
+
+.katrine:hover {
+    background-color: #FFFFFF;
+}
+
+.our-friends {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.our-friends {
+    text-align: center;
+    /* vertical-align: middle; */
+}
+
+.our-friends h3 {
+    max-width: 400px;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    display: inline-block;
+    color: #545454;
+    margin-bottom: 60px;
+}
+
+.tree-pets {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.pets-tree-cards {
+    width: 990px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.katrine {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FAFAFA;
+    border-radius: 9px 9px 0px 0px;
+    width: 270px;
+}
+
+.our-friends a {
+    text-decoration: none;
+    color: #292929;
+    display: inline-block;
+}
+
+.tree-pets h4 {
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.06em;
+    font-weight: 400;
+    margin: 30px 0;
+    color: #545454;
+}
+
+.katrine a {
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    padding: 15px 45px;
+    margin-bottom: 45px;
+}
+
+.tree-pets-a {
+    width: 52px;
+    height: 52px;
+    border: 2px solid #F1CDB3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+
+.tree-pets-a:hover {
+    background-color: #FDDCC4;
+}
+
+.get {
+    background-color: #F1CDB3;
+    padding: 15px 45px;
+    border-radius: 100px;
+    font-size: 17px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #292929;
+}
+
+.section-four {
+    background: #FFFFFF;
+    width: 100%;
+    padding: 80px 0 100px;
+}
+
+.shelter h3 {
+    /* display: inline-block;
+    max-width: 308px; */
+    text-align: center;
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #545454;
+    /* margin-bottom: 60px; */
+}
+
+.icons-donats {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.shelter h4 {
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: #545454;
+    margin-top: 30px;
+}
+
+.icons-donats div img {
+    display: inline;
+}
+
+.icons-donats div {
+    margin: 60px 60px;
+    text-align: center;
+}
+
+.section-five {
+    background-color: #F6F6F6;
+    padding: 80px 100px;
+}
+
+.endet {
+    display: flex;
+}
+
+.make-donation {
+    max-width: 380px;
+    display: inline-block;
+    /* margin-left: 30px; */
+}
+
+.endet h3 {
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.endet h5 {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 110%;
+    letter-spacing: 0.06em;
+    color: #545454;
+    margin: 20px 0;
+    vertical-align: text-top;
+}
+
+.cardnumber {
+    display: flex;
+    justify-content: space-around;
+    /* display: inline-block; */
+    max-width: 350px;
+    padding: 10px 15px;
+    background-color: #F1CDB3;
+    margin-bottom: 20px;
+    border-radius: 9px;
+}
+
+.cardnumber::before {
+    content: url(../images/credit-card.svg);
+}
+
+.cardnumber::after {
+    content: url(../images/card8380.svg);
+}
+
+.make-donation p {
+    font-family: 'Arial';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #B2B2B2;
+    vertical-align: bottom;
+}
+
+.endet img {
+    width: 505px;
+    height: 261px;
+    margin: 0 30px 0 142px;
+}
+
+footer {
+    background: linear-gradient(90.26deg, #7D604B 0.23%, #251000 99.8%);
+    padding-top: 56px;
+    width: 100%;
+}
+
+.flex-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+footer .flex-footer>div {
+    width: 300px;
+}
+
+.email-tel h3 {
+    font-size: 35px;
+    line-height: 130%;
+    color: #FFFFFF;
+    font-weight: 400;
+    margin-bottom: 33px;
+    letter-spacing: 0.06em;
+}
+
+.flex-footer a {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    letter-spacing: 0.06em;
+    color: #F1CDB3;
+    text-decoration: none;
+}
+
+footer p {
+    min-height: 46px;
+    padding-left: 60px;
+    align-items: center;
+    padding-left: 60px;
+}
+
+footer .email {
+    background: url(../images/mail.svg) no-repeat left center;
+    display: flex;
+}
+
+footer .tel {
+    background: url(../images/phone.svg) no-repeat left center;
+    display: flex;
+    margin-top: 27px;
+}
+
+footer .local {
+    background: url(../images/pin.svg) no-repeat left center;
+    display: flex;
+    padding-left: 42px;
+}
+
+.localtwo {
+    min-height: 32px;
+    margin-top: 27px;
+}
+
+@media(max-width:1278px) {
+    .container {
+        max-width: 92%;
+    }
+    .pets-tree-cards {
+        width: 85%;
+    }
+    .endet img {
+        margin: 0;
+    }
+    .endet {
+        justify-content: space-around;
+    }
+}
+
+@media(max-width:1207px) {
+    .pets-tree-cards {
+        max-width: 990px;
+        justify-content: space-around;
+    }
+}
+
+@media(max-width:1020px) {
+    .containertwo img {
+        display: none;
+    }
+    .title h1 {
+        max-width: 700px;
+    }
+    .title br {
+        display: none;
+    }
+    .title {
+        display: inline-block;
+        max-width: 700px;
+    }
+    .make-a-friend {
+        text-align: center;
+    }
+    .title p {
+        max-width: 700px;
+    }
+    .section-one {
+        padding: 180px 0 60px;
+    }
+}
+
+@media(max-width:1200px) {
+    .katrine:last-child {
+        display: none;
+    }
+}
+
+@media(max-width:1162px) {
+    .endet {
+        flex-wrap: wrap;
+    }
+    .make-donation {
+        max-width: 70%;
+        margin-top: 30px;
+    }
+    .section-five {
+        padding: 50px 50px;
+    }
+}
+
+@media(max-width:980px) {
+    .flex-footer {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .flex-footer img {
+        margin-top: 30px;
+    }
+}
+
+@media(max-width:950px) {
+    .about-pets {
+        padding: 60px 0 80px;
+    }
+    .cat-dog {
+        margin-right: 60px;
+    }
+}
+
+@media(max-width:870px) {
+    .navigation a {
+        display: none;
+    }
+    .navigation img {
+        display: inline-block;
+        margin-right: 50px;
+    }
+    .cat-dog {
+        margin-right: 30px;
+    }
+    .cozy-house h3 {
+        max-width: 370px;
+        font-size: 25px;
+        line-height: 110%;
+        letter-spacing: 0.06em;
+    }
+    .cat-dog img {
+        max-width: 90%;
+    }
+    .cat-dog {
+        margin-right: 0;
+    }
+}
+
+@media(max-width:800px) {
+    .about-pets {
+        padding: 45px 0 55px;
+    }
+}
+
+@media(max-width:770px) {
+    .cat-dog {
+        display: none;
+    }
+    .cozy-house p {
+        max-width: 680px;
+    }
+    .cozy-house h3 {
+        max-width: 680px;
+        font-weight: 550;
+    }
+}
+
+@media(max-width:750px) {
+    .section-tree {
+        padding: 40px 0 60px;
+    }
+    .katrine-two {
+        display: none;
+    }
+}
+
+@media(max-width:700px) {
+    .icons-donats div {
+        margin: 30px 30px;
+    }
+    .section-four {
+        padding: 30px 0 40px;
+    }
+    .shelter h3 {
+        font-size: 25px;
+        font-weight: 500;
+    }
+}
+
+@media(max-width:652px) {
+    .email-tel {
+        margin-bottom: 35px;
+    }
+}
+
+@media(max-width:643px) {
+    .endet img {
+        display: none;
+    }
+    .make-donation {
+        margin-top: 0px;
+        max-width: 100%;
+    }
+    .section-five {
+        padding: 40px 40px
+    }
+}
+
+@media(max-width:643px) {
+    .title h1 {
+        font-size: 30px;
+        line-height: 110%;
+        font-weight: 400;
+    }
+    .title a {
+        max-width: 160px;
+        padding: 12px 12px;
+        letter-spacing: 0.06em;
+    }
+}
+
+@media(max-width:470px) {
+    .cardnumber {
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+        max-width: 300px;
+    }
+    .cardnumber::after {
+        margin-top: 10px;
+    }
+}
+
+@media(max-width:450px) {
+    .our-friends h3 {
+        font-size: 25px;
+        margin-bottom: 40px;
+    }
+    .get {
+        padding: 10px 25px;
+        font-size: 15px;
+        line-height: 130%;
+    }
+    .katrine {
+        width: 230px;
+    }
+    .katrine a {
+        padding: 10px 30px;
+        font-size: 15px;
+    }
+}
+
+@media(max-width:440px) {
+    .title h1 {
+        font-size: 25px;
+        line-height: 110%;
+        font-weight: 300;
+    }
+    .title a {
+        max-width: 160px;
+        padding: 12px 12px;
+        letter-spacing: 0.06em;
+    }
+    .title p {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 130%;
+        margin: 20px 0 20px;
+    }
+    .title a {
+        max-width: 120px;
+        padding: 12px 12px;
+        letter-spacing: 0.06em;
+        font-size: 10px;
+    }
+    .section-one {
+        padding: 140px 0 20px;
+    }
+    header {
+        padding-top: 35px;
+    }
+    .navigation img {
+        display: inline-block;
+        margin-right: 0;
+    }
+    .cozy-house h3 {
+        max-width: 680px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 110%;
+        letter-spacing: 0.06em;
+    }
+    .cozy-house p {
+        font-size: 12px;
+        line-height: 130%;
+        letter-spacing: 0.06em;
+    }
+    .navigation img {
+        display: inline-block;
+        width: 35px;
+    }
+    .about-pets {
+        display: flex;
+        padding: 30px 0 40px;
+        justify-content: center;
+    }
+}
+
+@media(max-width:412px) {
+    .cardnumber::after {
+        content: '8380 2880 8028 8791 7435';
+        margin-top: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: large;
+        font-weight: lighter;
+        letter-spacing: 0.06em;
+        max-width: 320px;
+    }
+    .endet h3 {
+        font-size: 25px;
+        line-height: 130%;
+        letter-spacing: 0.06em;
+    }
+}
+
+@media(max-width:390px) {
+    .tree-pets-a-left {
+        order: 1;
+    }
+    .tree-pets-a-right {
+        order: 2;
+    }
+    .tree-pets {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-bottom: 30px;
+    }
+    .katrine {
+        width: 85%;
+        margin-bottom: 20px;
+    }
+    .katrine-two {
+        display: none;
+    }
+    .pets-tree-cards {
+        width: 100%;
+    }
+    .our-friends h3 {
+        font-size: 22px;
+    }
+    .section-tree {
+        padding: 30px 0 40px;
+    }
+}
